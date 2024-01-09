@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const video = document.getElementById('webcam')
     const messageContainer = document.getElementById('messageContainer')
-    let audioNotif = new Audio('./iphone_ding.mp3')
+    let audioNotif = new Audio('iphone_ding.mp3')
 
     audioNotif.autoplay = false
 
