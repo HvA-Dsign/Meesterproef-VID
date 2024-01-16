@@ -21,7 +21,7 @@ body{
   padding: 0.6em;
   appearance: none;
   background-color: #FCFCFD;
-  border-radius: 4px;
+  border-radius: 10px;
   box-shadow: rgba(108, 108, 108, 0.4) 8px 5px 8px,rgba(98, 92, 112, 0.3) 0 9px 15px -3px,#D6D6E7 0 -3px 0 inset;
   box-sizing: border-box;
   color: #36395A;
@@ -36,7 +36,7 @@ body{
   touch-action: manipulation;
   white-space: nowrap;
   will-change: box-shadow,transform;
-  font-size: 3em;
+  font-size: 2.5em;
   text-decoration: none;
 
   /* animatie */
@@ -79,14 +79,10 @@ body{
   .buttonVideo {
     position: absolute;
     top: 70%;
-    /* top: 47%; */
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
     
-    /* text-align: left; */
-    /* border-width: 0; */
-    /* height: 48px; */
     padding: 0.6em;
     appearance: none;
     background-color: #FCFCFD;
@@ -105,7 +101,8 @@ body{
     touch-action: manipulation;
     white-space: nowrap;
     will-change: box-shadow,transform;
-    font-size: 3em;
+    font-size: 2.1em;
+    font-weight: 200;
     text-decoration: none;
   
     /* animatie */
