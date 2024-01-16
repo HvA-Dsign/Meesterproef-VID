@@ -12,17 +12,12 @@ body{
 
 /********** button ***********/
 .button-30 {
-
   position: absolute;
   top: 70%;
-  /* top: 47%; */
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
-  
-  /* text-align: left; */
-  /* border-width: 0; */
-  /* height: 48px; */
+
   padding: 0.6em;
   appearance: none;
   background-color: #FCFCFD;
